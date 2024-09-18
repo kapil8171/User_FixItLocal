@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Login Signup Auth</string>
+    <string name="email">Email</string>
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="fixitlocal_app">FixItLocal App</string>
+    <string name="todo">TODO</string>
+    <string name="See"><u>See more</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="shop_image_description" />
+    <string name="image_description">\n</string>
+    <string name="search_nearby_service">Search nearby service</string>
+    <string name="todo1">TODO</string>
+    <string name="app_description">Our app provides a convenient way to hire home service professionals. \n <b>Here are some key features:</b>\n
+ \u2022 Hire plumbers, electricians, carpenters, painters, and more.\n
+  \u2022 View profiles and reviews of service providers before hiring.\n
+   \u2022 Book appointments at your preferred date and time.\n
+   \u2022 Enjoy reliable and efficient service delivery.\n
+     \u2022 Secure payment options and hassle-free transactions.</string>
+
+    <!-- Introduction -->
+    <string name="terms_intro">Introduction</string>
+    <string name="terms_intro_content">By using this app, you agree to abide by the following terms and conditions:</string>
+
+    <!-- User Responsibilities -->
+    <string name="terms_user_responsibilities">User Responsibilities</string>
+    <string name="terms_user_responsibilities_content">\u2022 Provide accurate information when requesting services.\n \u2022 Treat service professionals with respect and professionalism.</string>
+
+    <!-- Service Provision -->
+    <string name="terms_service_provision">Service Provision</string>
+    <string name="terms_service_provision_content">\u2022 The app connects users with local service professionals for various home services (plumbing, electrical work, carpentry, painting, etc.).</string>
+
+    <!-- Service Requests -->
+    <string name="terms_service_requests">Service Requests</string>
+    <string name="terms_service_requests_content">\u2022  Users can request services through the app following the specified process.</string>
+
+    <!-- Pricing and Payment -->
+    <string name="terms_pricing_payment">Pricing and Payment</string>
+    <string name="terms_pricing_payment_content">\u2022 Pricing for services is provided within the app.\n \u2022 Payments are processed securely through the app, including any applicable fees or charges.</string>
+
+    <!-- Service Professional Conduct -->
+    <string name="terms_service_professional_conduct">Service Professional Conduct</string>
+    <string name="terms_service_professional_conduct_content">\u2022 Service professionals are expected to maintain professionalism, punctuality, and quality of work.</string>
+
+    <!-- Liability and Disclaimers -->
+    <string name="terms_liability_disclaimers">Liability and Disclaimers</string>
+    <string name="terms_liability_disclaimers_content">\u2022 The app owner is not liable for any damages or losses incurred by users.\n \u2022 Disclaimers regarding the quality of services provided by service professionals are included.</string>
+
+    <!-- Intellectual Property -->
+    <string name="terms_intellectual_property">Intellectual Property</string>
+    <string name="terms_intellectual_property_content">\u2022 All intellectual property rights related to the app and its content are owned by the app owner.</string>
+
+    <!-- Privacy Policy -->
+    <string name="terms_privacy_policy">Privacy Policy</string>
+    <string name="terms_privacy_policy_content">\u2022 Refer to the app\'s privacy policy for information about data collection, use, and protection.</string>
+
+    <!-- Termination of Service -->
+    <string name="terms_termination_service">Termination of Service</string>
+    <string name="terms_termination_service_content">\u2022 The app owner may terminate or suspend a user\'s access to the app under certain circumstances.</string>
+
+    <!-- Governing Law -->
+    <string name="terms_governing_law">Governing Law</string>
+    <string name="terms_governing_law_content">\u2022 Disputes related to the terms and conditions are governed by the specified law and jurisdiction.</string>
+
+    <!-- Updates to Terms and Conditions -->
+    <string name="terms_updates">Updates to Terms and Conditions</string>
+    <string name="terms_updates_content">\u2022 The app owner reserves the right to update or modify the terms and conditions at any time. Users should periodically review the terms and conditions for changes.</string>
+
+
+</resources>

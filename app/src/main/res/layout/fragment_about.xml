@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.AboutFragment">
+
+
+
+
+    <TextView
+        android:id="@+id/AboutProvidertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is about me"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/domine"
+        android:layout_gravity="start"/>
+
+</FrameLayout>

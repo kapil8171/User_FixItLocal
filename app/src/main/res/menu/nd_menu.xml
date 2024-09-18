@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_miscellaneous_services_24"
+        android:id="@+id/setting"
+        android:title="Setting" />
+
+
+
+    <item
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/share"
+        android:title="Share " />
+
+
+    <item
+        android:id="@+id/notification_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/notify"
+        android:title="Notification" />
+
+
+    <item
+        android:id="@+id/paymentHistory_Item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/pay"
+        android:title="Payment History"/>
+
+    <item
+        android:id="@+id/termsCondition_Item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/terms_condition"
+
+        android:title="Terms &amp; Condition " />
+
+    <item
+        android:id="@+id/AboutApp_Item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/information"
+        android:title="About App " />
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/logout"
+        android:id="@+id/logout"
+        android:title="Logout" />
+
+
+</menu>

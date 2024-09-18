@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ui.PaymentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_arrow_back_24"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Booking Details"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="32dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Provider"
+        android:fontFamily="@font/domine"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/service_person_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saurabh Sharma"
+            android:textStyle="bold"
+            android:layout_marginStart="150dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/service_person_mobno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9876543210"
+            android:textStyle="bold"
+            android:layout_marginStart="150dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:dividerThickness="2sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address Details"
+        android:fontFamily="@font/domine"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="24dp"
+          android:orientation="vertical">
+
+           <TextView
+               android:id="@+id/userName"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Ankit Kumar"
+               android:textSize="20sp"/>
+
+          <TextView
+              android:id="@+id/locationTextView"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="A-42 Central Delhi, pincode- 110096"
+              android:textSize="20sp"/>
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Phone: "
+                  android:textSize="20sp"/>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="9876543210 "
+                  android:textSize="20sp"/>
+
+          </LinearLayout>
+
+
+
+
+
+      </LinearLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:dividerThickness="2sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Details"
+        android:fontFamily="@font/domine"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"/>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginTop="8dp"
+         android:layout_marginStart="24dp">
+
+         <ImageView
+             android:layout_width="60dp"
+             android:layout_height="60dp"
+             android:layout_gravity="center_vertical"
+             android:src="@drawable/google"/>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="16dp"
+              android:orientation="vertical">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Cleaning"
+                  android:textSize="20sp"
+                  android:textStyle="bold"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Select date and time"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="8dp"
+                  android:orientation="horizontal">
+
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Date: "
+                      android:textSize="18sp"/>
+
+                  <TextView
+                      android:id="@+id/tvDate"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textStyle="bold"
+                      android:textSize="18sp"/>
+
+                  <ImageView
+                      android:id="@+id/btnDatePicker"
+                      android:layout_marginStart="50dp"
+                      android:layout_width="20dp"
+                      android:layout_height="20dp"
+                      android:src="@drawable/calender"/>
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="8dp"
+                  android:orientation="horizontal">
+
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Time: "
+                      android:textSize="18sp"/>
+
+                  <TextView
+                      android:id="@+id/tvTime"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textStyle="bold"
+                      android:textSize="18sp"/>
+
+                  <ImageView
+                      android:id="@+id/btnTimePicker"
+                      android:layout_marginStart="65dp"
+                      android:layout_width="20dp"
+                      android:layout_height="20dp"
+                      android:src="@drawable/clock"/>
+
+              </LinearLayout>
+
+
+          </LinearLayout>
+
+     </LinearLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:dividerThickness="2sp"/>
+
+
+    <Button
+        android:id="@+id/confirm_buttonbooking"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Confirm Booking"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#1878C5"/>
+
+
+
+
+
+</LinearLayout>

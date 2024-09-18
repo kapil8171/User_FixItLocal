@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.TermsConditionFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <!-- Introduction -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_intro"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_intro_content"
+        android:layout_marginStart="20dp"/>
+
+    <!-- User Responsibilities -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_user_responsibilities"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
+        android:layout_gravity="start"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_user_responsibilities_content"
+        android:layout_marginStart="20dp"/>
+
+    <!-- Service Provision -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_service_provision"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
+        android:layout_gravity=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_service_provision_content"
+        android:layout_marginStart="20dp"/>
+
+    <!-- Service Requests -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_service_requests"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
+        android:layout_gravity=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_service_requests_content"
+        android:layout_marginStart="20dp"/>
+
+    <!-- Pricing and Payment -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_pricing_payment"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
+        android:layout_gravity=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_pricing_payment_content"
+        android:layout_marginStart="20dp"/>
+
+    <!-- Service Professional Conduct -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_service_professional_conduct"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
+        android:layout_gravity=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_service_professional_conduct_content"
+        android:layout_marginStart="20dp"/>
+
+    <!-- Liability and Disclaimers -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_liability_disclaimers"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
+        android:layout_gravity=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_liability_disclaimers_content"
+        android:layout_marginStart="20dp"/>
+
+    <!-- Intellectual Property -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_intellectual_property"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
+        android:layout_gravity=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_intellectual_property_content"
+        android:layout_marginStart="20dp"/>
+
+    <!-- Privacy Policy -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_privacy_policy"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
+        android:layout_gravity=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_privacy_policy_content"
+        android:layout_marginStart="20dp"/>
+
+    <!-- Termination of Service -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_termination_service"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
+        android:layout_gravity=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_termination_service_content"
+        android:layout_marginStart="20dp"/>
+
+    <!-- Governing Law -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_governing_law"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
+        android:layout_gravity=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_governing_law_content"
+        android:layout_marginStart="20dp"/>
+
+    <!-- Updates to Terms and Conditions -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_updates"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
+        android:layout_gravity=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_updates_content"
+        android:layout_marginStart="20dp"/>
+
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>
